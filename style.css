@@ -1,0 +1,187 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --clr-neon:rgb(255, 255, 255);
+    --clr-bg:rgb(255, 47, 20);
+    
+}
+.list ul{
+
+    display: flex;
+    list-style-type: none;
+    margin-bottom: 0 !important;
+}
+.list ul li{
+    font-weight: 500;
+    font-size: 15px;
+    padding: 0 10px;
+   
+}
+.logo{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.form-inline{
+    margin: 0 1rem !important;
+}
+.form-control{
+    font-size: 14px !important;
+    width: 25rem !important;
+    padding: 1.3rem 10px !important;
+
+}
+.nav-container{
+    justify-content: center !important;
+}
+.icons i{
+    padding: 0 11px;
+}
+.blue-gradiant{
+    background-image: url("./images/110411-black-blurred-background-vector.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.blue-gradiant .content{
+    height: 80vh;
+}
+.blue-gradiant .text-content{
+    padding: 0 5rem;
+   height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: baseline;
+   
+}
+.blue-gradiant .text-content h1{
+ 
+    color: white;
+    font-size: 2.2rem;
+    font-weight: 700;
+    
+}
+.blue-gradiant .text-content p{
+    color: white;
+    font-size: 1.5rem;
+    padding-right: 4rem;
+}
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.image .img{
+    
+    position: relative;
+}
+.image img{
+    box-shadow: 10px 12px 19px -10px rgba(176,160,160,0.75);
+-webkit-box-shadow: 10px 12px 19px -10px rgba(176,160,160,0.75);
+-moz-box-shadow: 10px 12px 19px -10px rgba(176,160,160,0.75);
+    border-radius: 28px;
+    top: 3rem;
+    width: 60%;
+    position: relative;
+    left: 0rem;
+}
+.text-content .btns .btn-1 {
+    margin: 0 10px 0 0px;
+    color: #fff;
+    width: 122px;
+    height: 47px;
+    padding: 12px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: rgb(151, 1, 1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  
+  /* 1 */
+  .btn-1 {
+    border: none;
+    background-color: #470510;
+    box-shadow: 0 0 5px #292729;
+  }
+  .btn-1:hover {
+     box-shadow: 0 0 10px #e0748b, 0 0 20px #e74165, 0 0 50px #000 inset;
+  }
+  .text-content .btns .btn-2 {
+    color: rgb(240, 40, 40);
+    width: 122px;
+    height: 47px;
+    padding: 12px 25px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
+    background: rgb(255, 255, 255);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    border-radius: 10px;
+  }
+  .btn-2 {
+    border: none;
+    background-color: #470510;
+    box-shadow: 0 0 5px #b1afb1;
+  }
+  .btn-2:hover {
+     box-shadow:0 0 10px #efefef, 0 0 20px #ffffff, 0 0 50px #000 inset;
+  }
+.image .slimshop{
+    box-shadow: 10px 12px 19px -10px rgba(176,160,160,0.75);
+-webkit-box-shadow: 10px 12px 19px -10px rgba(176,160,160,0.75);
+-moz-box-shadow: 10px 12px 19px -10px rgba(176,160,160,0.75);
+    border-bottom-left-radius: 28px;
+    border-bottom-right-radius: 28px;
+    background-color: white;
+    width: 60%;
+    position: absolute;
+    left: 0rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    bottom: -23px;
+
+}
+.image .slimshop img{
+    height:3em;
+    position:relative;
+    width: 2.5em;
+    top: 0px;
+    left: 10px;
+    border-radius: 50%;
+}
+.image .banner{
+    text-align: center;
+    font-weight: 800;
+    font-size: 2.5em;
+    font-style: italic;
+    width: 14rem;
+    background-color: #000;
+    color: #7e191d;
+    position: relative;
+    left: 2.5rem;
+    bottom: 10rem;
+    padding: 2px;
+}
+.image .slimshop h6{
+    font-size: 12px;
+    margin-bottom: 0 !important;
+}
+.image .slimshop p{
+    font-size: 14px;
+    margin-bottom: 0 !important;
+}
+.image .slimshop span{
+   
+    padding: 12px 2rem;
+}
